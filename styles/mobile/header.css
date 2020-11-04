@@ -6,13 +6,13 @@ header {
 	align-items: center;
 	width: 100%;
 }
-	header .logos { height: 40px; }
+	header .logos { height: 70px; }
 		header .logos img {
-			height: 40px;
-			padding: 0 22px;
+			height: 70px;
+			padding: 0 40px;
 		}
 			header .logos img:first-child {
-				border-right: 1px solid #E1E1E3;
+				border-right: 2px solid #E1E1E3;
 			}
 	header .contact {
 		display: flex;
@@ -20,6 +20,11 @@ header {
 		flex-direction: column;
 		padding: 0 22px;
 	}
+		header .contact img {
+			height: 70px;
+			cursor: pointer;
+			margin-right: 30px;
+		}
 		header .contact p {
 			display: none;
 		}

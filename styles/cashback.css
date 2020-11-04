@@ -35,6 +35,9 @@
 					color: #2B2D33;
 					font-family: NavigoBold;
 				}
+				#cashback .container .text_items .item:last-child .description_mob {
+					display: none;
+				}
 			#cashback .container .text_items .item .description {
 				font-weight: normal;
 				font-size: 16px;

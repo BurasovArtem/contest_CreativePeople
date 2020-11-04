@@ -5,6 +5,10 @@
 	width: 100%;
 	background-color: #F4F4F4;
 }
+	#credit .title_mob,
+	#credit .subtitle_mob {
+		display: none;
+	}
 	#credit .title {
 		font-size: 48px;
 		line-height: 54px;
@@ -111,3 +115,4 @@
 					font-family: ALSHaussRegular;
 				}
 			#credit .credit_block .right_part .credit_button {  }
+			#credit .credit_block .right_part .addition_mob { display: none; }

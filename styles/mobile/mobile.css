@@ -5,43 +5,56 @@
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	overflow: hidden;
 }
 	#mobile .title {
-		font-size: 48px;
-		line-height: 54px;
+		font-size: 6em;
+		text-align: center;
 		color: #FFFFFF;
 		font-family: NavigoBold;
 		margin-top: 79px;
 	}
 	#mobile .subtitle {
-		font-size: 18px;
-		line-height: 26px;
+		font-size: 3em;
+		line-height: 1.5em;
+		text-align: center;
+		white-space: pre-line;
 		color: #FFFFFF;
 		font-family: ALSHaussRegular;
 		margin: 17px 0;
 	}
 	#mobile .mobile_scrolling {
+		width: 100%;
 		margin-top: 50px;
 		margin-bottom: 70px;
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 	}
+		#mobile .mobile_scrolling .dots {
+			height: 25px;
+			margin: 50px;
+		}
 		#mobile .mobile_scrolling .scroll {
 			display: flex;
-			flex-wrap: wrap;
-			justify-content: center;
+			justify-content: flex-start;
+			flex-wrap: nowrap;
+			align-items: flex-start;
+			flex-direction: row;
 		}
 			#mobile .mobile_scrolling .scroll img {
 				margin: 10px;
+				width: 700px;
 			}
 		#mobile .mobile_scrolling .arrow {
 			cursor: pointer;
 			margin: 30px;
+			display: none;
 		}
 		#mobile .mobile_scrolling .arrow:hover path:first-child {
 			fill: #FED500;
 		}
 	#mobile .mobile_button {
 		margin-bottom: 80px;
+		display: none;
 	}

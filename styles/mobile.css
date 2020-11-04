@@ -27,6 +27,12 @@
 		flex-direction: row;
 		align-items: center;
 	}
+		#mobile .mobile_scrolling .dots {
+			display: none;
+		}
+		#dots {
+			display: none;
+		}
 		#mobile .mobile_scrolling .scroll {
 			display: flex;
 			flex-wrap: wrap;

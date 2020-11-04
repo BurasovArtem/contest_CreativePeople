@@ -3,61 +3,61 @@
 	flex-direction: column;
 	align-items: center;
 	width: 100%;
-	background-color: #F4F4F4;
 }
-	#credit .title {
-		font-size: 48px;
-		line-height: 54px;
+	#credit .title_mob {
+		font-size: 5em;
 		color: #2B2D33;
 		font-family: NavigoBold;
 		margin-top: 72px;
+		text-align: center;
 	}
-	#credit .subtitle {
+	#credit .subtitle_mob {
 		font-weight: normal;
-		font-size: 18px;
-		line-height: 26px;
+		font-size: 3em;
 		color: #808185;
 		font-family: ALSHaussRegular;
 		margin: 26px 0;
 	}
+	#credit .title,
+	#credit .subtitle {
+		display: none;
+	}
 	#credit .credit_block {
-		/*width: 1000px;*/
 		height: auto;
 		background-color: #FFFFFF;
-		border-radius: 14px;
 		display: flex;
-		justify-content: space-between;
+		justify-content: center;
+		flex-direction: column;
 		align-items: center;
 		margin-bottom: 90px;
+		width: 100%;
 	}
 		#credit .credit_block .left_part {
-			width: 700px;
+			width: 100%;
 			margin: 60px 0;
-			border-right: 1px solid #E1E1E3;
 			display: flex;
 			align-items: center;
 			flex-direction: column;
 			justify-content: center;
 		}
 			#credit .credit_block .left_part .item {
-				width: 600px;
 				display: flex;
 				flex-direction: column;
 				margin: 16px 0;
+				width: 90%;
 			}
 				#credit .credit_block .left_part .item .text {
 					display: flex;
 					justify-content: space-between;
+					align-items: flex-end;
 				}
 					#credit .credit_block .left_part .item .text .question {
-						font-size: 16px;
-						line-height: 24px;
+						font-size: 2.5em;
 						color: #2B2D33;
 						font-family: ALSHaussRegular;
 					}
 					#credit .credit_block .left_part .item .text .result {
-						font-size: 32px;
-						line-height: 30px;
+						font-size: 4.5em;
 						color: #2B2D33;
 						font-family: NavigoRegular;
 					}
@@ -66,48 +66,59 @@
 					justify-content: space-between;
 				}
 					#credit .credit_block .left_part .item .range .min {
-						font-size: 12px;
-						line-height: 12px;
+						font-size: 2em;
 						color: #A2A4A6;
 						font-family: ALSHaussRegular;
 					}
 					#credit .credit_block .left_part .item .range .max {
-						font-size: 12px;
-						line-height: 12px;
+						font-size: 2em;
 						color: #A2A4A6;
 						font-family: ALSHaussRegular;
 					}
 				#credit .credit_block .left_part .addition {
-					width: 600px;
-					font-size: 13px;
-					line-height: 18px;
-					color: #A2A4A6;
-					font-family: ALSHaussRegular;
-					margin-top: 40px;
-					margin-bottom: 20px;
+					display: none;
 				}
 		#credit .credit_block .right_part {
-			width: 204px;
 			margin: 60px 0;
 			display: flex;
-			justify-content: space-around;
+			justify-content: center;
 			flex-direction: column;
-			height: 100%;
-			padding: 0 50px;
+			align-items: center;
+			height: auto;
+			background-color: #F4F4F4;
+			border-radius: 20px;
+			width: 90%;
 		}
 			#credit .credit_block .right_part .item {
-				margin-bottom: 45px;
+				margin-top: 100px;
+				display: flex;
+				justify-content: center;
+				flex-direction: column;
+				align-items: center;
 			}
 				#credit .credit_block .right_part .item .result {
-					font-size: 32px;
-					line-height: 42px;
+					font-size: 5em;
+					line-height: 1em;
 					color: #2B2D33;
 					font-family: NavigoBold;
 				}
 				#credit .credit_block .right_part .item .description {
-					font-size: 16px;
-					line-height: 24px;
+					font-size: 2.5em;
 					color: #2B2D33;
 					font-family: ALSHaussRegular;
 				}
-			#credit .credit_block .right_part .credit_button {  }
+			#credit .credit_block .right_part .credit_button {
+				margin: 100px;
+				padding: 75px 50px;
+				font-size: 3.5em;
+				border-radius: 20px;
+			}
+			#credit .credit_block .right_part .addition_mob {
+				color: #808185;
+				font-size: 2.2em;
+				font-family: ALSHaussRegular;
+				width: 100%;
+				border-top: 2px solid #E1E1E3;
+				text-align: center;
+				padding: 30px 0;
+			}

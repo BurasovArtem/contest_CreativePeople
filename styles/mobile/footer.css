@@ -5,37 +5,36 @@ footer {
 }
 	footer .madeby {
 		display: flex;
+		margin-top: 100px;
 		justify-content: center;
 		width: 100%;
-		padding: 30px 0;
-		border-top: 1px solid #E1E1E3;
-		border-bottom: 1px solid #E1E1E3;
+		border-top: 2px solid #E1E1E3;
+		border-bottom: 2px solid #E1E1E3;
 	}
 		footer .madeby .container {
-			/*width: 1200px;*/
+			width: 	90%;
 			display: flex;
-			justify-content: space-between;
-			flex-direction: row;
+			justify-content: flex-start;
+			flex-direction: column;
 		}
 			footer .madeby .container .company_name {
-				font-size: 13px;
-				line-height: 18px;
+				margin-top: 50px;
+				font-size: 2em;
 				color: #55575C;
 				font-family: ALSHaussRegular;
+
 			}
 			footer .madeby .container .company_data {
-				font-size: 13px;
-				line-height: 18px;
+				font-size: 2em;
 				color: #55575C;
 				font-family: ALSHaussRegular;
+				margin: 50px 0;
 			}
 	footer .scroll_info {
-		height: 150px;
-		/*width: 1100px;*/
+		width: 90%;
+		height: 300px;
 		overflow-y: scroll;
-		padding-right: 100px;
-		font-size: 13px;
-		line-height: 18px;
+		font-size: 2em;
 		color: #808185;
 		font-family: ALSHaussRegular;
 		margin: 50px 0;
