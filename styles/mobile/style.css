@@ -1,24 +1,24 @@
 @font-face{
 	font-family: 'ALSHaussBold';
-	src: url('fonts/ALSHauss-Bold.ttf') format('truetype');
+	src: url('../fonts/ALSHauss-Bold.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face{
 	font-family: 'ALSHaussRegular';
-	src: url('fonts/ALSHauss-Regular.ttf') format('truetype');
+	src: url('../fonts/ALSHauss-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face{
 	font-family: 'NavigoBold';
-	src: url('fonts/Navigo-Bold.ttf') format('truetype');
+	src: url('../fonts/Navigo-Bold.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face{
 	font-family: 'NavigoRegular';
-	src: url('fonts/Navigo-Regular.ttf') format('truetype');
+	src: url('../fonts/Navigo-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -29,9 +29,18 @@
 	font-family: NavigoBold;
 }
 
-#sticker_mob,
-#button_mobile {
+#sticker_desk {
   display: none;
+}
+
+#button_mobile {
+  width: 100%;
+  height: 10vh;
+  background-color: #FEE600;
+  color: #2B2D33;
+  font-family: ALSHaussRegular;
+  font-size: 4em;
+  font-weight: 500;
 }
 
 /* button */

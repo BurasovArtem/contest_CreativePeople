@@ -14,7 +14,7 @@
 	#cashback .container .text_items {
 		display: flex;
 		justify-content: space-around;
-		width: 1200px;
+		/*width: 1200px;*/
 		flex-wrap: wrap;
 	}
 		#cashback .container .text_items .item {

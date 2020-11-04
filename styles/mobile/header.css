@@ -20,7 +20,7 @@ header {
 		flex-direction: column;
 		padding: 0 22px;
 	}
-		header .contact img {
+		header .contact p {
 			display: none;
 		}
 		header .contact .number {

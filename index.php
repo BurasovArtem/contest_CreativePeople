@@ -3,14 +3,33 @@
 	<head>
 		<meta charset="utf-8">
 		<title>CreativePeople</title>
-		<link rel="stylesheet" type="text/css" href="styles/style.css">
-		<link rel="stylesheet" type="text/css" href="styles/card.css">
-		<link rel="stylesheet" type="text/css" href="styles/cashback.css">
-		<link rel="stylesheet" type="text/css" href="styles/credit.css">
-		<link rel="stylesheet" type="text/css" href="styles/footer.css">
-		<link rel="stylesheet" type="text/css" href="styles/header.css">
-		<link rel="stylesheet" type="text/css" href="styles/mobile.css">
-		<link rel="stylesheet" type="text/css" href="styles/promo.css">
+		<?php
+			require_once "php/check_mobile.php";
+			if ( check_mobile() ) {
+				?>
+					<link rel="stylesheet" type="text/css" href="styles/mobile/style.css">
+					<link rel="stylesheet" type="text/css" href="styles/mobile/card.css">
+					<link rel="stylesheet" type="text/css" href="styles/mobile/cashback.css">
+					<link rel="stylesheet" type="text/css" href="styles/mobile/credit.css">
+					<link rel="stylesheet" type="text/css" href="styles/mobile/footer.css">
+					<link rel="stylesheet" type="text/css" href="styles/mobile/header.css">
+					<link rel="stylesheet" type="text/css" href="styles/mobile/mobile.css">
+					<link rel="stylesheet" type="text/css" href="styles/mobile/promo.css">
+				<?php
+			}
+			else {
+				?>
+					<link rel="stylesheet" type="text/css" href="styles/style.css">
+					<link rel="stylesheet" type="text/css" href="styles/card.css">
+					<link rel="stylesheet" type="text/css" href="styles/cashback.css">
+					<link rel="stylesheet" type="text/css" href="styles/credit.css">
+					<link rel="stylesheet" type="text/css" href="styles/footer.css">
+					<link rel="stylesheet" type="text/css" href="styles/header.css">
+					<link rel="stylesheet" type="text/css" href="styles/mobile.css">
+					<link rel="stylesheet" type="text/css" href="styles/promo.css">
+				<?php
+			}
+		?>
 	</head>
 	<body>
 		<header>
@@ -19,18 +38,21 @@
 				<img src="images/visa_Logo.svg">
 			</div>
 			<div class="contact">
+				<img src="images/phone.svg">
 				<p class="number">8 800 770-75-62</p>
 				<p class="free">Бесплатно по России</p>
 			</div>
 		</header>
 		<div id="promo">
 			<div class="promo_info">
-				<img src="images/sticker.svg">
+				<img src="images/sticker_mobile.svg" id="sticker_mob">
+				<img src="images/sticker.svg" id="sticker_desk">
 				<p class="title">Кредитная карта с кэшбэком</p>
 				<p class="percent"><span>1,5</span>%</p>
 				<button class="promo_button">Оформить онлайн</button>
 			</div>
 		</div>
+		<button id="button_mobile">Оформить онлайн</button>
 		<div id="cashback">
 			<div class="container">
 				<div class="text_items">
