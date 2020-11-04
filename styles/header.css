@@ -1,0 +1,36 @@
+header {
+	background-color: white;
+	height: 10vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+	header .logos { height: 40px; }
+		header .logos img {
+			height: 40px;
+			padding: 0 22px;
+		}
+			header .logos img:first-child {
+				border-right: 1px solid #E1E1E3;
+			}
+	header .contact {
+		display: flex;
+		align-items: flex-end;
+		flex-direction: column;
+		padding: 0 22px;
+	}
+		header .contact .number {
+			font-family: ALSHaussRegular;
+			font-weight: normal;
+			font-size: 20px;
+			line-height: 26px;
+			color: #2B2D33;
+		}
+		header .contact .free {
+			font-family: ALSHaussRegular;
+			font-weight: normal;
+			font-size: 13px;
+			line-height: 18px;
+			color: #808185;
+		}

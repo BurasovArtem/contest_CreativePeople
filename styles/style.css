@@ -1,0 +1,218 @@
+@font-face{
+	font-family: 'ALSHaussBold';
+	src: url('fonts/ALSHauss-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'ALSHaussRegular';
+	src: url('fonts/ALSHauss-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'NavigoBold';
+	src: url('fonts/Navigo-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'NavigoRegular';
+	src: url('fonts/Navigo-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: NavigoBold;
+}
+
+/* button */
+button {
+	background-color: #FEE600;
+	border-radius: 10px;
+	padding: 15px 28px;
+	font-family: ALSHaussRegular;
+	color: #2B2D33;
+	border: none;
+	cursor: pointer;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+  outline: none;
+}
+	button:hover {
+		background-color: #FED500;
+	}
+/**/
+
+/* range */
+input[type=range] {
+  width: 100%;
+  margin: 15px 0;
+  background-color: transparent;
+  -webkit-appearance: none;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  background: #e1e1e3;
+  border: 0px solid rgba(0, 1, 1, 0);
+  border: 0;
+  border-radius: 25px;
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+}
+input[type=range]::-webkit-slider-thumb {
+  margin-top: -15px;
+  width: 35px;
+  height: 35px;
+  background: #fee600;
+  border: 0px solid rgba(0, 0, 0, 0);
+  border: 0;
+  border-radius: 35px;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+input[type=range]::-moz-range-track {
+  background: #e1e1e3;
+  border: 0px solid rgba(0, 1, 1, 0);
+  border: 0;
+  border-radius: 25px;
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+}
+input[type=range]::-moz-range-thumb {
+  width: 35px;
+  height: 35px;
+  background: #fee600;
+  border: 0px solid rgba(0, 0, 0, 0);
+  border: 0;
+  border-radius: 35px;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  background: transparent;
+  border-color: transparent;
+  border-width: 15px 0;
+  color: transparent;
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+}
+input[type=range]::-ms-fill-lower {
+  background: #d4d4d7;
+  border: 0px solid rgba(0, 1, 1, 0);
+  border: 0;
+  border-radius: 50px;
+}
+input[type=range]::-ms-fill-upper {
+  background: #e1e1e3;
+  border: 0px solid rgba(0, 1, 1, 0);
+  border: 0;
+  border-radius: 50px;
+}
+input[type=range]::-ms-thumb {
+  width: 35px;
+  height: 35px;
+  background: #fee600;
+  border: 0px solid rgba(0, 0, 0, 0);
+  border: 0;
+  border-radius: 35px;
+  cursor: pointer;
+  margin-top: 0px;
+}
+input[type=range] {
+  width: 100%;
+  margin: 15px 0;
+  background-color: transparent;
+  -webkit-appearance: none;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  background: #e1e1e3;
+  border: 0px solid rgba(0, 1, 1, 0);
+  border: 0;
+  border-radius: 25px;
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+}
+input[type=range]::-webkit-slider-thumb {
+  margin-top: -15px;
+  width: 35px;
+  height: 35px;
+  background: #fee600;
+  border: 0px solid rgba(0, 0, 0, 0);
+  border: 0;
+  border-radius: 35px;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+input[type=range]::-moz-range-track {
+  background: #e1e1e3;
+  border: 0px solid rgba(0, 1, 1, 0);
+  border: 0;
+  border-radius: 25px;
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+}
+input[type=range]::-moz-range-thumb {
+  width: 35px;
+  height: 35px;
+  background: #fee600;
+  border: 0px solid rgba(0, 0, 0, 0);
+  border: 0;
+  border-radius: 35px;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  background: transparent;
+  border-color: transparent;
+  border-width: 15px 0;
+  color: transparent;
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+}
+input[type=range]::-ms-fill-lower {
+  background: #d4d4d7;
+  border: 0px solid rgba(0, 1, 1, 0);
+  border: 0;
+  border-radius: 50px;
+}
+input[type=range]::-ms-fill-upper {
+  background: #e1e1e3;
+  border: 0px solid rgba(0, 1, 1, 0);
+  border: 0;
+  border-radius: 50px;
+}
+input[type=range]::-ms-thumb {
+  width: 35px;
+  height: 35px;
+  background: #fee600;
+  border: 0px solid rgba(0, 0, 0, 0);
+  border: 0;
+  border-radius: 35px;
+  cursor: pointer;
+  margin-top: 0px;
+}
+input[type="range"]::-ms-fill-lower {
+	background-color: #FEE600;
+	height: 5px;
+	border-radius: 30px;
+}
+input[type="range"]::-moz-range-progress {
+	background-color: #FEE600;
+	height: 5px;
+	border-radius: 30px;
+}
+/**/
