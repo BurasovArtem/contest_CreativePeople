@@ -25,7 +25,7 @@
 		margin: 26px 0;
 	}
 	#credit .credit_block {
-		/*width: 1000px;*/
+		width: 1000px;
 		height: auto;
 		background-color: #FFFFFF;
 		border-radius: 14px;
@@ -52,16 +52,16 @@
 				#credit .credit_block .left_part .item .text {
 					display: flex;
 					justify-content: space-between;
+					align-items: flex-end;
 				}
 					#credit .credit_block .left_part .item .text .question {
 						font-size: 16px;
-						line-height: 24px;
 						color: #2B2D33;
 						font-family: ALSHaussRegular;
 					}
 					#credit .credit_block .left_part .item .text .result {
 						font-size: 32px;
-						line-height: 30px;
+						line-height: 25px;
 						color: #2B2D33;
 						font-family: NavigoRegular;
 					}

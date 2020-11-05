@@ -49,10 +49,10 @@
 				<img src="images/sticker.svg" id="sticker_desk">
 				<p class="title">Кредитная карта с кэшбэком</p>
 				<p class="percent"><span>1,5</span>%</p>
-				<button class="promo_button">Оформить онлайн</button>
+				<a href="#card"><button class="promo_button">Оформить онлайн</button></a>
 			</div>
 		</div>
-		<button id="button_mobile">Оформить онлайн</button>
+		<a href="#card"><button id="button_mobile">Оформить онлайн</button></a>
 		<div id="cashback">
 			<div class="container">
 				<div class="text_items">
@@ -95,9 +95,15 @@
 					<div class="item">
 						<div class="text">
 							<p class="question">Какая сумма нужна?</p>
-							<p class="result">500 000 ₽</p>
+							<p class="result" id="result_sum">500 000 ₽</p>
 						</div>
-						<input type="range" min="0" max="100" step="1" value="50"> 
+						<input 
+							type="range" 
+							min="90000" 
+							max="2000000" 
+							step="1" 
+							value="500000" 
+							oninput="document.querySelector('#result_sum').innerText = this.value + ' ₽'"> 
 						<div class="range">
 							<p class="min">90 000 ₽</p>
 							<p class="max">2 000 000 ₽</p>
@@ -106,9 +112,16 @@
 					<div class="item">
 						<div class="text">
 							<p class="question">На какой срок?</p>
-							<p class="result">36 мес.</p>
+							<p class="result" id="result_mes">36 мес.</p>
 						</div>
-						<input type="range" min="0" max="100" step="1" value="75"> 
+						<input 
+							type="range" 
+							min="13" 
+							max="60" 
+							step="1" 
+							value="36"
+							oninput="document.querySelector('#result_mes').innerText = this.value + ' мес.'" 
+						> 
 						<div class="range">
 							<p class="min">13 мес.</p>
 							<p class="max">60 мес.</p>
@@ -163,7 +176,7 @@
 				</svg>
 				<img src="images/dots.svg" class="dots" id="dots">
 			</div>
-			<button class="mobile_button">Оформить карту онлайн</button>
+			<a href="#card"><button class="mobile_button">Оформить карту онлайн</button></a>
 		</div>
 		<footer>
 			<div class="madeby">
