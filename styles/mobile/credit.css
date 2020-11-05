@@ -17,6 +17,7 @@
 		color: #808185;
 		font-family: ALSHaussRegular;
 		margin: 26px 0;
+		text-align: center;
 	}
 	#credit .title,
 	#credit .subtitle {
@@ -50,6 +51,8 @@
 					display: flex;
 					justify-content: space-between;
 					align-items: flex-end;
+					flex-direction: row;
+					margin-bottom: 30px;
 				}
 					#credit .credit_block .left_part .item .text .question {
 						font-size: 2.5em;
@@ -60,10 +63,13 @@
 						font-size: 4.5em;
 						color: #2B2D33;
 						font-family: NavigoRegular;
+						display: flex;
+						height: 1em;
 					}
 				#credit .credit_block .left_part .item .range {
 					display: flex;
 					justify-content: space-between;
+					margin-top: 30px;
 				}
 					#credit .credit_block .left_part .item .range .min {
 						font-size: 2em;
