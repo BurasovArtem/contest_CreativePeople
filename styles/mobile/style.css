@@ -69,7 +69,7 @@ button {
 /* range */
 input[type=range] {
   width: 100%;
-  margin: 30px 0;
+  margin: 15px 0;
   background-color: transparent;
   -webkit-appearance: none;
 }
@@ -164,7 +164,7 @@ input[type=range]::-webkit-slider-runnable-track {
   cursor: pointer;
 }
 input[type=range]::-webkit-slider-thumb {
-  margin-top: -15px;
+  margin-top: -35px;
   width: 80px;
   height: 80px;
   background: #fee600;
@@ -225,12 +225,12 @@ input[type=range]::-ms-thumb {
 }
 input[type="range"]::-ms-fill-lower {
   background-color: #FEE600;
-  height: 5px;
+  height: 10px;
   border-radius: 30px;
 }
 input[type="range"]::-moz-range-progress {
   background-color: #FEE600;
-  height: 5px;
+  height: 10px;
   border-radius: 30px;
 }
 /**/
